@@ -1,0 +1,47 @@
+body{
+  font-size: 3em;
+  margin: 0;
+  text-align: center;
+  background-color: mintcream;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.buttons{
+  font-size: 3em;
+  border: none;
+  border-radius: 200px;
+  background-color: hotpink;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  margin: 10px 10px;
+}
+
+.buttons:hover{
+background-color: lightpink;
+}
+
+#playerChoice, #computerChoice{
+  margin-top: 10px;
+  font-size: 2em;
+  font-family: fantasy;
+}
+
+#resultDisplay{
+  font-size: 2.5em;
+}
+
+#scoreDisplay{
+  font-size: 2.5rem;
+}
+
+.greentext,#playerScore{
+  color: green;
+}
+
+.red,#computerScore{
+  color: crimson; 
+}
+
+.grey,#tieCount{
+  color: darkgrey;
+}
